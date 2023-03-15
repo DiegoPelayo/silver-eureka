@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  height: 115px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 5%;
+}
+.header .header_cen {
+  flex-grow: 1;
+  max-width: 60%;
+}
+.header .header_cen .div_barra_busqueda {
+  flex-shrink: 3;
+  width: 30rem;
+}
+.header .header_cen .div_barra_busqueda .barra_busqueda {
+  width: 80%;
+  padding: 1rem 1.3rem;
+  border: 2px;
+  border-radius: 20px;
+  background-color: #F5F5F5;
+  font-size: 1rem;
+}
+.header .header_cen .div_barra_busqueda img {
+  position: relative;
+  left: -2.5rem;
+  bottom: -0.3rem;
+}
+.header .header_izq .header_izq-txt {
+  display: flex;
+  align-items: center;
+}
+.header .header_izq .header_izq-txt div:nth-child(1) {
+  margin-right: 10px;
+}
+.header .login {
+  padding: 1.1rem 4.7rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(36, 115, 193);
+  border-color: rgb(36, 115, 193);
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 72px;
+    background-color: rgb(255, 255, 255);
+  }
+  .header .header_cen .div_barra_busqueda .barra_busqueda {
+    width: 30vw;
+    padding: 1rem 1.3rem;
+    border: 2px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    font-size: 1rem;
+  }
+  .header .header_izq {
+    display: flex;
+    align-items: center;
+    gap: 4%;
+  }
+  .header .header_izq .header_izq-txt {
+    display: flex;
+    align-items: center;
+  }
+  .header .login {
+    padding: 0.7rem 4rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 115, 193);
+    border-color: rgb(36, 115, 193);
+  }
+}
+@media screen and (max-width: 360px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    padding: 0 0;
+    width: 360px;
+    height: 72px;
+  }
+  .header .header_izq .header_izq-txt {
+    margin: 0 2rem;
+  }
+  .header .header_izq .header_izq-txt div:nth-child(1) {
+    margin-right: 1px;
+  }
+  .header .header_izq .header_izq-txt div img {
+    width: 30px;
+  }
+  .header .header_cen {
+    order: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .header .header_cen .div_barra_busqueda {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .header .header_cen .div_barra_busqueda .barra_busqueda {
+    visibility: hidden;
+    display: none;
+  }
+  .header .header_cen .div_barra_busqueda img {
+    position: inherit;
+  }
+  .header .login {
+    padding: 0.6rem 2.3rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 115, 193);
+    border-color: rgb(36, 115, 193);
+  }
+}
+.footer {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=cabeceraa.css.map */
