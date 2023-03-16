@@ -1,0 +1,207 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 115px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 5%;
+
+    .header_cen {
+        
+        flex-grow: 1;
+        max-width: 60%; // ! estaba en 60% - estoy probando cual es el error con el de 360px
+        .div_barra_busqueda {
+            flex-shrink: 3;
+            width: 30rem;
+            .barra_busqueda {
+            width: 80%;
+            padding: 1rem 1.3rem;
+            border: 2px;
+            border-radius: 20px;
+            background-color: #F5F5F5;
+            font-size: 1rem;
+                
+        }
+        img {
+            position: relative;
+            left: -2.5rem;
+            bottom: -.3rem;
+        }
+        }
+    }
+
+    .header_izq {
+        
+        .header_izq-txt {
+            display: flex;
+            align-items: center;
+            div:nth-child(1) {
+                margin-right: 10px;
+            }
+            div {
+                img {
+                    
+                }
+            }
+        }
+        
+
+
+        
+        
+        
+    }
+    // .login {
+    //     padding: 1.1rem 4.7rem;
+    //     background-color: rgb(255, 255, 255);
+    //     color: rgb(36, 115, 193);
+    //     border-color: rgb(36, 115, 193);
+    // }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 72px;
+        background-color: rgb(255, 255, 255);
+        
+        .header_cen {
+            
+            
+            .div_barra_busqueda {
+                
+                .barra_busqueda {
+                    width: 30vw;
+                    padding: 1rem 1.3rem;
+                    border: 2px;
+                    border-radius: 20px;
+                    background-color: #F5F5F5;
+                    font-size: 1rem;
+                    
+                }
+                
+                
+            }
+            
+                
+            
+        }
+
+        .header_izq {
+            display: flex;
+            align-items: center;
+            gap: 4%;
+            
+    
+            .header_izq-txt {
+                display: flex;
+                align-items: center;
+                
+                
+            }
+    
+            
+        }
+        .login {
+            padding: .7rem 4rem;
+            background-color: rgb(255, 255, 255);
+            color: rgb(36, 115, 193);
+            border-color: rgb(36, 115, 193);
+            
+        }
+    }
+    
+
+
+}
+
+
+
+
+@media screen and (max-width: 360px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        
+        
+        width: 360px;
+        padding: 0 0; 
+        
+        width: 360px;
+        height: 72px;
+        .header_izq {
+        .header_izq-txt {
+            margin: 0 2rem;
+            div:nth-child(1) {
+                margin-right: 1px;
+            }
+            div {
+                
+                img {
+                    width:  30px;
+                }
+            }
+        }
+    }
+
+
+        
+        .header_cen {
+            order: 1;
+            display: flex;
+            justify-content: center;
+            
+        
+        .div_barra_busqueda {
+            
+            width: 2rem;
+            display: flex;
+            justify-content: center;
+            
+            .barra_busqueda {
+                visibility: hidden;
+                display: none;
+                
+                
+            }
+            img {
+                position: inherit;
+            }
+
+        }
+    }
+        .login {
+            padding: .6rem 2.3rem;
+            background-color: rgb(255, 255, 255);
+            color: rgb(36, 115, 193);
+            border-color: rgb(36, 115, 193);
+        }
+    }
+}
+
+
+
+
+
+
+.footer {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+

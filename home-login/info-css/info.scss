@@ -1,0 +1,261 @@
+.informacionExtra {
+    height: 556px;
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-family: 'Raleway';
+    .header_izq-txt {
+            display: flex;
+            align-items: center;
+            img {
+                width: 50px;
+            
+        }
+    }
+    .informacionExtra_opciones {
+        display: flex;
+        flex-direction: column;
+        gap: .9rem;
+        text-align: center;
+        .infoExtraDiv {
+            .infoExtraTxt {
+
+            }
+        }
+    }
+    .contacto_pag2 {
+        // background-color: red;
+        
+        form {
+            // background-color: greenyellow;
+            display: flex;
+            justify-content: center;
+            fieldset {
+                display: flex;
+                flex-direction: column;
+                gap: .6rem;
+                label {
+                    font-weight: 800;
+                }
+                .contacto_pag1-input1 {
+                    border: none;
+                    width: 331px;
+                    height: 56px;
+                    box-shadow: 1px 1px rgb(180, 174, 174);
+                }
+                .contacto_pag1-input1::placeholder {
+                    position: relative;
+                    top: -.8rem;
+                    right: -.4rem;
+                }
+                .contacto_pag1-input1:active {
+                    border: 2px solid red;
+                }
+                .contacto_pag1-input2 {
+                    border: none;
+                    width: 331px;
+                    height: 82px;
+                    padding: 0 11px;
+                    box-shadow: 1px 1px rgb(180, 174, 174);
+                }
+                .contacto_pag1-input2::placeholder {
+                    position: relative;
+                    top: -1.2rem;
+                    
+                }
+                .contacto_pag1-boton {
+                    background-color: dodgerblue;
+                    border: none;
+                    width: 40%;
+                    height: 2.5rem;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+
+//! TABLET
+@media screen and (min-width: 361px) {
+
+    .informacionExtra {
+        height: 364px;
+        // background-color: #EAF2FD;
+        // display: flex;
+        flex-wrap: wrap;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+        // gap: 2rem;
+        // font-family: 'Raleway';
+        .header_izq-txt {
+                // display: flex;
+                // align-items: center;
+                img {
+                    // width: 50px;
+                
+            }
+        }
+        .informacionExtra_opciones {
+            // display: flex;
+            // flex-direction: column;
+            
+            // gap: .9rem;
+            // text-align: center;
+            .infoExtraDiv {
+                .infoExtraTxt {
+    
+                }
+            }
+        }
+        .contacto_pag2 {
+            // background-color: red;
+            
+            form {
+                // background-color: greenyellow;
+                // display: flex;
+                // justify-content: center;
+                fieldset {
+                    // display: flex;
+                    // flex-direction: column;
+                    // gap: .6rem;
+                    label {
+                        // font-weight: 800;
+                    }
+                    .contacto_pag1-input1 {
+                        // border: none;
+                        width: 52.1vw;
+                        // height: 56px;
+                        // box-shadow: 1px 1px rgb(180, 174, 174);
+                        
+                    }
+                    .contacto_pag1-input1::placeholder {
+                        // position: relative;
+                        // top: -.8rem;
+                        // right: -.4rem;
+                    }
+                    .contacto_pag1-input2 {
+                        // border: none;
+                        width: 100%;
+                        // height: 82px;
+                        // padding: 0 11px;
+                        // box-shadow: 1px 1px rgb(180, 174, 174);
+                        
+                    }
+                    .contacto_pag1-input2::placeholder {
+                        // position: relative;
+                        // top: -1.2rem;
+                        
+                    }
+                    .contacto_pag1-boton {
+                        // background-color: dodgerblue;
+                        // border: none;
+                        // width: 40%;
+                        // height: 2.5rem;
+                        // color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+
+    
+}
+
+
+
+
+//! DESKTOP
+@media screen and (min-width: 1080px) {
+
+    .informacionExtra {
+        // height: 364px;
+        // background-color: #EAF2FD;
+        // display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: start;
+        padding-top: 6rem;
+        // justify-content: center;
+        gap: 7vw;
+        // font-family: 'Raleway';
+        .header_izq-txt {
+                // display: flex;
+                // align-items: center;
+                img {
+                    // width: 50px;
+                
+            }
+        }
+        .informacionExtra_opciones {
+            // display: flex;
+            // flex-direction: column;
+            
+            // gap: .9rem;
+            // text-align: center;
+            .infoExtraDiv {
+                .infoExtraTxt {
+    
+                }
+            }
+        }
+        .contacto_pag2 {
+            // background-color: red;
+            
+            form {
+                // background-color: greenyellow;
+                // display: flex;
+                // justify-content: center;
+                fieldset {
+                    // display: flex;
+                    // flex-direction: column;
+                    // gap: .6rem;
+                    label {
+                        // font-weight: 800;
+                    }
+                    .contacto_pag1-input1 {
+                        // border: none;
+                        width: 32.1vw;
+                        // height: 56px;
+                        // box-shadow: 1px 1px rgb(180, 174, 174);
+                        
+                    }
+                    .contacto_pag1-input1::placeholder {
+                        // position: relative;
+                        // top: -.8rem;
+                        // right: -.4rem;
+                    }
+                    .contacto_pag1-input2 {
+                        // border: none;
+                        // width: 100%;
+                        // height: 82px;
+                        // padding: 0 11px;
+                        // box-shadow: 1px 1px rgb(180, 174, 174);
+                        
+                    }
+                    .contacto_pag1-input2::placeholder {
+                        // position: relative;
+                        // top: -1.2rem;
+                        
+                    }
+                    .contacto_pag1-boton {
+                        // background-color: dodgerblue;
+                        // border: none;
+                        // width: 40%;
+                        // height: 2.5rem;
+                        // color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+
+    
+}

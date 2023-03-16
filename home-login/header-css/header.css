@@ -1,0 +1,77 @@
+.header {
+  height: 72px;
+  font-family: "Raleway";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .header-izq {
+  display: flex;
+  align-items: center;
+}
+.header .header-izq div img {
+  width: 50px;
+}
+.header .header-cen .div_barra_busqueda .barra_busqueda {
+  display: none;
+}
+.header .header-der {
+  display: none;
+}
+.header .header-der .login {
+  padding: 0.6rem 2.3rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(36, 115, 193);
+  border-color: rgb(36, 115, 193);
+}
+
+@media screen and (min-width: 361px) {
+  .header {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .header .header-izq {
+    padding-right: 1.2rem;
+  }
+  .header .header-cen .div_barra_busqueda {
+    display: flex;
+  }
+  .header .header-cen .div_barra_busqueda .barra_busqueda {
+    display: block;
+    width: 272px;
+    height: 40px;
+    border: 2px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    font-size: 1rem;
+  }
+  .header .header-cen .div_barra_busqueda img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: -0.7rem;
+    left: -2.3rem;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .header {
+    padding: 0 8rem;
+  }
+  .header .header-izq {
+    padding-right: 2rem;
+  }
+  .header .header-cen .div_barra_busqueda .barra_busqueda {
+    width: 35vw;
+    height: 40px;
+  }
+}
+.footer {
+  height: 121px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 500;
+}/*# sourceMappingURL=header.css.map */

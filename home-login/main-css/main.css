@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: "Raleway";
+  height: 364px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main_form fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem 0;
+}
+.main .main_form fieldset label {
+  font-weight: 700;
+}
+.main .main_form fieldset input {
+  border: none;
+  width: 276px;
+  height: 41px;
+  padding: 0 15px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  border-radius: 4px;
+}
+.main .main_form fieldset .main_buttonSesion {
+  background-color: dodgerblue;
+  border: none;
+  width: 40%;
+  height: 40px;
+  color: white;
+}
+
+@media screen and (min-width: 360px) {
+  .main {
+    height: 320px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .main {
+    height: 320px;
+  }
+  .main .main_form fieldset input {
+    width: 423px;
+    height: 63px;
+  }
+  .main .main_form fieldset .main_buttonSesion {
+    width: 100%;
+    height: 62px;
+  }
+}/*# sourceMappingURL=main.css.map */

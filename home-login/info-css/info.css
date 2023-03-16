@@ -1,0 +1,101 @@
+.informacionExtra {
+  height: 556px;
+  background-color: #EAF2FD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-family: "Raleway";
+}
+.informacionExtra .header_izq-txt {
+  display: flex;
+  align-items: center;
+}
+.informacionExtra .header_izq-txt img {
+  width: 50px;
+}
+.informacionExtra .informacionExtra_opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  text-align: center;
+}
+.informacionExtra .contacto_pag2 form {
+  display: flex;
+  justify-content: center;
+}
+.informacionExtra .contacto_pag2 form fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.informacionExtra .contacto_pag2 form fieldset label {
+  font-weight: 800;
+}
+.informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input1 {
+  border: none;
+  width: 331px;
+  height: 56px;
+  box-shadow: 1px 1px rgb(180, 174, 174);
+}
+.informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input1::-moz-placeholder {
+  position: relative;
+  top: -0.8rem;
+  right: -0.4rem;
+}
+.informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input1::placeholder {
+  position: relative;
+  top: -0.8rem;
+  right: -0.4rem;
+}
+.informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input1:active {
+  border: 2px solid red;
+}
+.informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input2 {
+  border: none;
+  width: 331px;
+  height: 82px;
+  padding: 0 11px;
+  box-shadow: 1px 1px rgb(180, 174, 174);
+}
+.informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input2::-moz-placeholder {
+  position: relative;
+  top: -1.2rem;
+}
+.informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input2::placeholder {
+  position: relative;
+  top: -1.2rem;
+}
+.informacionExtra .contacto_pag2 form fieldset .contacto_pag1-boton {
+  background-color: dodgerblue;
+  border: none;
+  width: 40%;
+  height: 2.5rem;
+  color: white;
+}
+
+@media screen and (min-width: 361px) {
+  .informacionExtra {
+    height: 364px;
+    flex-wrap: wrap;
+  }
+  .informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input1 {
+    width: 52.1vw;
+  }
+  .informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input2 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .informacionExtra {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: start;
+    padding-top: 6rem;
+    gap: 7vw;
+  }
+  .informacionExtra .contacto_pag2 form fieldset .contacto_pag1-input1 {
+    width: 32.1vw;
+  }
+}/*# sourceMappingURL=info.css.map */

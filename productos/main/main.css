@@ -1,0 +1,140 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3.5% 0;
+}
+main .allProductos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.3rem 0;
+}
+main .allProductos span {
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+}
+main .allProductos .allProductos_boton {
+  background-color: #2A7AE4;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+main .seccion_all {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+main .seccion_all .seccion_nombre {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .secciones {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+main .secciones .cuadro {
+  background-color: rgb(255, 255, 255);
+  max-width: 176px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .secciones .cuadro img {
+  max-width: 176px;
+  flex-shrink: 2;
+}
+main .secciones .cuadro .precio {
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  body {
+    width: 760px;
+  }
+  main {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .seccion_all {
+    margin-bottom: 1rem;
+  }
+  .seccion_all .secciones {
+    gap: 0.7rem;
+  }
+  .seccion_all .secciones .cuadro img {
+    width: 164px;
+    height: 174px;
+  }
+  .seccion_all .secciones .cuadro:nth-child(3) {
+    display: flex;
+    flex-shrink: 2;
+  }
+  .seccion_all .secciones .cuadro:nth-child(5) {
+    display: none;
+    visibility: hidden;
+  }
+  .seccion_all .secciones .cuadro:nth-child(6) {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 360px) {
+  body {
+    width: 360px;
+  }
+  main {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .seccion_all {
+    margin-bottom: 4rem;
+    width: 360px;
+    flex-wrap: wrap;
+  }
+  main .seccion_all .seccion-presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.6rem 1.1rem;
+  }
+  main .seccion_all .seccion-presentacion .seccion_verTodo {
+    color: #2A7AE4;
+    font-weight: 700;
+  }
+  main .seccion_all .seccion-presentacion .seccion_verTodo img {
+    vertical-align: middle;
+  }
+  main .seccion_all .secciones {
+    display: flex;
+    justify-content: center;
+    row-gap: 4.5rem;
+    flex-wrap: wrap;
+  }
+  main .seccion_all .secciones .cuadro {
+    width: 156px;
+  }
+  main .seccion_all .secciones .cuadro img {
+    width: 156px;
+    height: 174px;
+  }
+  main .seccion_all .secciones .cuadro:nth-child(5) {
+    display: none;
+    visibility: hidden;
+  }
+  main .seccion_all .secciones .cuadro:nth-child(6) {
+    display: none;
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=main.css.map */
